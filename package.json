@@ -1,0 +1,24 @@
+{
+	"name": "jsdevtools",
+	"title": "jsdevtools",
+	"description": "Text editor tools for working with javascript",
+	"version": "0.1.0",
+	"homepage": "https://github.com/zship/jsdevtools",
+	"author": "Zach Shipley <zach@zachshipley.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zship/jsdevtools.git"
+	},
+	"license": "MIT",
+	"bin": {
+		"jsdevtools-server": "bin/jsdevtools-server",
+		"jsdevtools-client": "bin/jsdevtools-client"
+	},
+	"dependencies": {
+		"esprima": "1.0.x",
+		"deferreds": "0.2.x",
+		"deferred": "0.6.x"
+	},
+	"preferGlobal": true,
+	"keywords": []
+}
